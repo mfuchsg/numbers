@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define tab "\t"
@@ -10,8 +10,8 @@ void main()
 	int min;
 	const int n = 5;
 	int arr[n] = {};
-	cout << "Ââåäèòå ìàêñèìàëüíî âîçìîæíî ÷èñëî: "; cin >> max;
-	cout << "Ââåäèòå ìèíèìàëüíîå âîçìîæíî ÷èñëî: "; cin >> min;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> max;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¼Ð¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð²Ð¾Ð·Ð¼Ð¾Ð¶Ð½Ð¾ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> min;
 	for (int i = 0; n > i; i++)
 	{
 		arr[i] = rand() % (max, min);
